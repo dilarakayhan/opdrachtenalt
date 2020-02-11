@@ -1,11 +1,5 @@
-const changeClassBlueBackground = function() {
-  const bodyElement = document.body;
-  bodyElement.classList.add("red-background");
-};
+const firstSection = document.querySelector("#first-section");
+// console.log(firstSection);
 
-const attachEvenToChangeColorButton = function() {
-  const changeColorButton = document.getElementById("change-background-button");
-  changeColorButton.addEventListener("click", function() {
-    changeClassBlueBackground();
-  });
-};
+const paragraph = document.querySelector(".paragraph");
+// console.log(paragraph);
